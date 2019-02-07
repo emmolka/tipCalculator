@@ -1,0 +1,23 @@
+@media (min-width:320px) { body{
+    padding-left:14%;
+} }
+@media (min-width:480px) { body{
+    padding-left:25%;
+    padding-top:15px;
+} }
+@media (min-width:600px) { body{
+    padding-left:30%;
+    padding-top:30px;
+} }
+@media (min-width:801px) { body{
+    padding-left:35%;
+    padding-top:30px;
+} }
+@media (min-width:1025px) { body{
+    padding-left:38%;
+    padding-top:30px;
+} }
+@media (min-width:1281px) { body{
+    padding-left:38%;
+    padding-top:30px;
+} }

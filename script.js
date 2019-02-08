@@ -1,6 +1,9 @@
 let percentage;
 document.querySelector('.selected').addEventListener('click', function(){
     let number =document.querySelector('.selected').value;
+    
+    
+    
     if(number==='1'){
         percentage=0.2;
     }else if(number==='2'){
@@ -18,11 +21,15 @@ document.querySelector('.button').addEventListener('click', function(){
     let people= document.querySelector('.people-sharing').value;
     let tip;
    
-    tip=bill*percentage/people;
+    if(isNaN(tip=bill*percentage/people)){
+        let fail='Please insert numbers';
+        document.querySelector('.score').innerHTML=fail;
+    }else{
         
-    document.querySelector('.score').innerHTML=tip;
+        document.querySelector('.score').innerHTML=tip;
+    };
+        
+    
     
 });
-
-
 

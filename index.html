@@ -7,7 +7,7 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="queries.css">
-   
+    <title>Tip Calculator</title>
     
 </head>
 <body>
@@ -17,18 +17,13 @@
     <p class="question">How much was your bill?</p>
     <input class="bill-amount" placeholder="Bill amount">
     <p class="question">How was your service?</p>  
-      
-    <select class="selected">
-        <option value="0">Choose an option</option>
-        <option value="1">Great!</option>
-        <option value="2">Good</option>
-        <option value="3">Not bad</option>
-        <option value="4">2/10</option>
-    </select>
+    <div class="buttons">
+        <button class='first'>2/10</button><button class='second'>Ok.</button><button class='third'>Great!</button><button class='fourth'>Perfect!</button>
+    </div>  
     <p class="question">How many people are sharing the bill?</p>
     <input class="people-sharing" placeholder="Number of people">
     <button class="button">Calculate!</button>
-    <p class="score"></p>
+    <div class='score_div'><p class="score"></p></div>
 </div>
     
 </body>
